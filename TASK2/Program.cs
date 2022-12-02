@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Ведите два числа: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
+if (numberA>numberB)
+{
+    Console.Write("Max: ");
+    Console.Write(numberA);
+}
+else
+{
+    Console.Write("Max: ");
+    Console.Write(numberB);
+}
